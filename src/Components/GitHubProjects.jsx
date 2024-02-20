@@ -14,6 +14,7 @@ function getRandomColor() {
 const languageColors = {
   Java: '#BD34FF',
   HTML: '#FFC51D',
+  JavaScript: '#48C8FF'
   // añade más lenguajes y colores aquí si lo necesitas
 };
 
@@ -22,17 +23,25 @@ const GitHubProjects = ({ username, token }) => {
 
   useEffect(() => {
     const apiUrl = `https://api.github.com/users/${username}/repos`;
-
+  
     fetch(apiUrl, {
       headers: {
         Authorization: `token ${token}`
       }
     })
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
     .then(data => {
       setRepos(data);
     })
-    .catch(error => console.error('Error fetching GitHub repos:', error));
+    .catch(error => {
+      console.error('Error fetching GitHub repos:', error);
+      setRepos([]); // set repos to an empty array in case of error
+    });
   }, [username, token]);
 
   return (

@@ -12,7 +12,7 @@ const Navbar = () => {
             <img src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" />
         </a>
         <a className='no-style-link' href="http://localhost:5173">
-            <span>pablo san miguel</span>
+            <span className='index-top'>pablo san miguel</span>
         </a>
       </div>
 

@@ -6,7 +6,7 @@
 }
 
 .repo-item {
-  width: 200px;
+  width: 300px;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #474747;
@@ -26,6 +26,8 @@
 .repo-item p {
   margin: 0 0 8px;
 }
+
+
 
 .repo-language {
   display: flex;

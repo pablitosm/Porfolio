@@ -27,12 +27,10 @@
 }
 
 .navbar__links a {
-    /* animacion negrita */
     transition: font-weight 0.5s;
 }
 
 .navbar__links a:hover {
-    /* 10% mas grande */
     font-weight: bold;
 }
 
@@ -47,6 +45,11 @@
     margin-left: 1em;
 }
 
+.no-style-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
@@ -55,9 +58,4 @@
     .navbar__links {
         margin-top: 1em;
     }
-}
-
-.no-style-link {
-    color: inherit;
-    text-decoration: none;
 }
