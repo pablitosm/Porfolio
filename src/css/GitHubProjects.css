@@ -6,7 +6,7 @@
 }
 
 .projects {
-  margin-left: 10em;
+  /* margin-left: 10em; */
   display: flex;
   flex-direction: column;
 }

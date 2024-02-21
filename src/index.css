@@ -25,18 +25,22 @@ body {
 }
 
 ::selection {
-  background: #BD34FF;
+  background: #FFC51D;
 }
 
 ::-moz-selection {
-  background: #BD34FF;
+  background: #FFC51D;
 }
 
 footer {
+  display: flex;
+  justify-content: right;
   background-color: #333333;
-  width: 100%;
+  padding: 1em;
   font-size: 1em;
   margin-top: auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .container {
@@ -56,4 +60,26 @@ footer {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 120px; /* adjust as needed */
+}
+
+.social-icons a img {
+  width: 30px; /* adjust as needed */
+  transition: brightness 0.5s;
+}
+
+.social-icons a img:hover {
+  /* brightness: 150%; */
+}
+
+.github-icon {
+}
+
+.github-icon:hover {
+  transform: scale(1.1);
 }

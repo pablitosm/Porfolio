@@ -1,8 +1,14 @@
 /* styles.css */
+.container-contact {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center; /* Esto alinea el formulario al centro horizontalmente */
+    margin: 2em 0;
 }
 
 .contact-form .input-container {

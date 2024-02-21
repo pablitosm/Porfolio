@@ -5,6 +5,8 @@
     align-items: center;
     padding: 1em;
     background-color: #333;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .navbar__logo {
@@ -22,11 +24,12 @@
 }
 
 .navbar__links a {
-    transition: font-weight 0.5s;
+    transition: font-weight 0.5s, color 0.5s;
 }
 
 .navbar__links a:hover {
     font-weight: bold;
+    color: #ffc51d;
 }
 
 .navbar__link.active {
@@ -35,7 +38,6 @@
   }
 
 .navbar__link {
-    color: #fff;
     text-decoration: none;
     margin-left: 1em;
 }

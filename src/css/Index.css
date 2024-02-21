@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.container-all {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .title-index {
     flex: 1;
     padding-top: 7em;
@@ -13,13 +18,19 @@
 .image-index {
     align-items: right;
     padding-top: 7em;
-    padding-right: 15em;
+}
+
+.image {
+    width: 400px;
+    
+    /* border-radius: 10%; */
+    /* box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); */
 }
 
 .title-index p {
     font-size: 5em;
     font-weight: bold;
-    padding-left: 2em;
+    /* padding-left: 2em; */
     margin: 0;
 }
 
@@ -35,9 +46,10 @@
 }
 
 .container-bottom-index {
-    padding-left: 5em;
+    /* padding-left: 5em; */
     margin-bottom: 2em;
     font-size: 2em;
-    max-width: 80%;
+
     text-align: justify;
 }
+

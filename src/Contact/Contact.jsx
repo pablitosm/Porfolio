@@ -3,7 +3,7 @@ import '../css/Contact.css';
 
 function Contact() {
   return (
-    <div>
+    <div className='container-contact'>
         <h2>Contact</h2>
         <form action="https://api.web3forms.com/submit" method="POST" className="contact-form">
           <input type="hidden" name="apikey" value="0761ef7d-af07-4a95-aff0-4ba8b5473cc7" />

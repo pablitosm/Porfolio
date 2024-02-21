@@ -13,9 +13,9 @@ function index() {
                 <p className='bottom-text-index'>Full Stack Developer</p>
             </div>
             <div className="image-index">
-                <a href="https://vitejs.dev/" target="_blank">
-                    <img src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" />
-                </a>
+                {/* <a href="https://vitejs.dev/" target="_blank" className=''> */}
+                    <img className='image' src="https://i.imgur.com/Uj6pNyc.png" />
+                {/* </a> */}
             </div>
         </div>
         <div className="container-bottom-index">

@@ -1,5 +1,6 @@
 // GitHubProjects.jsx
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/GitHubProjects.css';
 
 function getRandomColor() {
@@ -50,7 +51,7 @@ const GitHubProjects = ({ username, token }) => {
       <div className="repo-list">
         {repos.map(repo => (
           <div key={repo.id} className="repo-item">
-            <h2><a href={repo.html_url}>{repo.name}</a></h2>
+            <h2><Link to={`/repo/${username}/${repo.name}`}>{repo.name}</Link></h2>
             <p>{repo.description}</p>
             <div className="repo-language">
               <span className="circle" style={{backgroundColor: languageColors[repo.language] || getRandomColor()}}></span>

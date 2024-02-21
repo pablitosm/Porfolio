@@ -1,0 +1,14 @@
+/* RepoDetails.css */
+.container-readme {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+pre {
+    white-space: pre-wrap; /* Respect existing line breaks and add new ones as necessary */
+    word-wrap: break-word; /* Break words that are too long to fit on a line */
+}
+
+img {
+    width: 100%;
+}
