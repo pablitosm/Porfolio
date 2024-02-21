@@ -21,11 +21,6 @@
 
 }
 
-.navbar__links {
-    display: flex;
-    z-index: 10000;
-}
-
 .navbar__links a {
     transition: font-weight 0.5s;
 }

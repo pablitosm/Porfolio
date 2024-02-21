@@ -3,6 +3,12 @@
   cursor: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -19,9 +25,35 @@
 }
 
 ::selection {
-  background: #BD34FF; /* color de fondo de la selección */
+  background: #BD34FF;
 }
 
 ::-moz-selection {
-  background: #BD34FF; /* color de fondo de la selección para Firefox */
+  background: #BD34FF;
+}
+
+footer {
+  background-color: #333333;
+  width: 100%;
+  font-size: 1em;
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-right p {
+  margin-left: 1em;
+  transition: font-weight 0.5s;
+}
+
+.align-right p:hover {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

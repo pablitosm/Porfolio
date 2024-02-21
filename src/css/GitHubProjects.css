@@ -1,17 +1,26 @@
 .repo-list {
   display: flex;
-  flex-wrap: wrap;;
+  flex-wrap: wrap;
   list-style: none;
-  padding: 10px 0 0 0;
+  padding: 10px 0 100px 0;
+}
+
+.projects {
+  margin-left: 10em;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects h2 {
+  margin: 0 0 8px;
 }
 
 .repo-item {
-  width: 300px;
+  margin-bottom: 10px;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #474747;
   margin-right: 10px;
-
 }
 
 .repo-item h2 {
@@ -26,8 +35,6 @@
 .repo-item p {
   margin: 0 0 8px;
 }
-
-
 
 .repo-language {
   display: flex;

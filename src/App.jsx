@@ -6,6 +6,7 @@ import CustomCursor from './Components/CustomCursor';
 import Projects from './projects/Projects';
 import AboutMe from './AboutMe/AboutMe';
 import Contact from './Contact/Contact';
+import Index from './Index/index';
 
 function App() {
   return (
@@ -14,11 +15,8 @@ function App() {
         <CustomCursor />
         <Navbar />
         <Routes>
-          <Route path="/" element={
-            <h2>hola</h2>
-          } />
+          <Route path="/" element={<Index />} />
           <Route path="/aboutMe" element={<AboutMe />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
