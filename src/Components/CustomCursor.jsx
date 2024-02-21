@@ -12,7 +12,7 @@ const CustomCursor = () => {
 
     const hoverEvent = () => setHovered(true);
     const unhoverEvent = () => setHovered(false);
-    const clickableElements = document.querySelectorAll('a, button, input, textarea, img');
+    const clickableElements = document.querySelectorAll('.link-clicable a , a, button, input, textarea');
     clickableElements.forEach(el => {
       el.addEventListener("mouseover", hoverEvent);
       el.addEventListener("mouseout", unhoverEvent);
