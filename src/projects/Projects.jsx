@@ -5,7 +5,7 @@ import GitHubProjects from '../Components/GitHubProjects';
 function Projects() {
   return (
     <div>
-      <GitHubProjects username={"pablitosm"} token={"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"} />
+      <GitHubProjects username={"pablitosm"} token={"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"} />
     </div>
   );
 }

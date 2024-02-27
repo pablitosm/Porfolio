@@ -14,20 +14,22 @@ function index() {
             </div>
             <div className="image-index">
                 {/* <a href="https://vitejs.dev/" target="_blank" className=''> */}
-                    <img className='image' src="https://i.imgur.com/Uj6pNyc.png" />
+                    <img className='image' src="https://i.imgur.com/Uj6pNyc.png" title='hi' />
                 {/* </a> */}
             </div>
         </div>
         <div className="container-bottom-index">
-            <p>Phasellus non magna lorem. Curabitur eget nisi tincidunt, 
-                consectetur orci vitae, facilisis sapien. Vestibulum posuere 
-                enim ut diam vulputate malesuada. Quisque pharetra, odio sit 
-                amet tempus sodales, ex est ullamcorper ipsum, id tincidunt 
-                felis orci eu nulla. Sed gravida sit amet lectus in finibus. 
-                Nulla rutrum ultrices purus, pellentesque mollis ipsum laoreet 
-                at. Vestibulum quis purus sed dui aliquam auctor. Praesent eget 
-                luctus justo. Aliquam in commodo mi, aliquet dictum justo. 
-                Suspendisse varius molestie vestibulum.
+            <p>Welcome to my portfolio! I'm Pablo San Miguel, a passionate learner currently studing DAW. 
+                My enthusiasm lies in crafting innovative solutions through software development, 
+                with a keen focus on both backend and front-end technologies.
+            </p>
+            <p>
+                In this portfolio, you'll find a showcase of my projects, demonstrating my proficiency in various 
+                programming languages, frameworks, and methodologies. From designing intuitive user interfaces to 
+                building robust backend systems, I strive for excellence in every endeavor.
+            </p>
+            <p>
+                Thank you for visiting, and feel free to explore my work!
             </p>
         </div>
         <Projects />

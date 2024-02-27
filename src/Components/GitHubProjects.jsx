@@ -16,7 +16,6 @@ const languageColors = {
   Java: '#BD34FF',
   HTML: '#FFC51D',
   JavaScript: '#48C8FF'
-  // añade más lenguajes y colores aquí si lo necesitas
 };
 
 const GitHubProjects = ({ username, token }) => {
@@ -51,7 +50,7 @@ const GitHubProjects = ({ username, token }) => {
       <div className="repo-list">
         {repos.map(repo => (
           <div key={repo.id} className="repo-item">
-            <h2 className='link-clicable'><Link to={`/repo/${username}/${repo.name}`}>{repo.name}</Link></h2>
+            <h2 className='link-clicable' title='readme.md'><Link to={`/repo/${username}/${repo.name}`}>{repo.name}</Link></h2>
             <p>{repo.description}</p>
             <div className="repo-language">
               <span className="circle" style={{backgroundColor: languageColors[repo.language] || getRandomColor()}}></span>

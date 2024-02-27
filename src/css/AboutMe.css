@@ -1,7 +1,6 @@
 .container-aboutme {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    font-size: 1.5em;
+    text-align: justify;
     margin: 0 auto;
     max-width: 80%;
 }

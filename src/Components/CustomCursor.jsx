@@ -30,6 +30,8 @@ const CustomCursor = () => {
   return (
     <>
       <div className={`cursor ${hovered ? 'hovered' : ''}`} style={{ left: `${position.x}px`, top: `${position.y}px` }} />
+      <div className={`outer-cursor ${hovered ? 'hovered' : ''}`} style={{ left: `${position.x}px`, top: `${position.y}px` }} />
+
     </>
   );
 };

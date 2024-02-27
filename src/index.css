@@ -65,19 +65,13 @@ a {
 .social-icons {
   display: flex;
   justify-content: space-between;
-  width: 120px; /* adjust as needed */
+  width: 100px;
 }
 
 .social-icons a img {
-  width: 30px; /* adjust as needed */
+  width: 25px;
   transition: brightness 0.5s;
-}
-
-.social-icons a img:hover {
-  /* brightness: 150%; */
-}
-
-.github-icon {
+  margin-top: 5px;
 }
 
 .github-icon:hover {
