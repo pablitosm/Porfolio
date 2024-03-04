@@ -1,4 +1,9 @@
 /* styles.css */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-blog {
     margin: 0 auto;
     max-width: 80%;

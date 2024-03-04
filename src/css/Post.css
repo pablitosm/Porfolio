@@ -1,0 +1,32 @@
+@import "../blog/prism-gruvbox-dark.css";
+
+
+.container-post {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.margin-left {
+    margin-left: 3em;
+}
+
+.post {
+    margin: 2em 0;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+pre {
+    border: 1px solid #474747;
+    background-color: #282828;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+  

@@ -5,7 +5,7 @@ import '../css/AboutMe.css';
 function AboutMe() {
   return (
     <div className='container-aboutme'>
-      <h1 className='title-aboutme'>About Me</h1>
+      <h2 className='title-aboutme'>About Me</h2>
       <p className='text-aboutme'>
         I am a web developer with a passion for learning and sharing my knowledge with others. 
         I am a Full Stack Web Developer with a focus on the MERN stack. I am also a freelance web developer and 
