@@ -1,9 +1,9 @@
 @import "../blog/prism-gruvbox-dark.css";
 
-
 .container-post {
     text-align: justify;
     margin: 0 auto;
+    font-size: 1.5em;
     max-width: 80%;
 }
 
@@ -28,5 +28,33 @@ pre {
     background-color: #282828;
     border-radius: 10px;
     overflow-x: auto;
+    position: relative;
 }
-  
+
+.copy-button {
+    position: absolute;
+    margin-top: -.5vw;
+    margin-left: 76vw;
+    z-index: 10;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    border: 1px solid #474747;
+    background-color: #282828;
+    border-radius: 5px;
+    background-image: url('https://i.imgur.com/NFpGAjt.png');
+    background-size: cover;
+}
+
+.copy-button:hover {
+    background-image: url('https://i.imgur.com/QAJc7NJ.png');
+  }
+
+/* .copy-button {
+    background-color: #FFC51D;
+    color: #222222;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 5px;
+  } */

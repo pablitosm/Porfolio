@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
 
       <div className="navbar__logo">
-        <Link to="/" target="_blank">
+        <Link to="/">
             <img className='image-nav' src={location.pathname === '/' ? "https://i.imgur.com/bQWccHv.png" : "https://i.imgur.com/Uj6pNyc.png"} alt="Logo" title='main page' />
         </Link>
       </div>

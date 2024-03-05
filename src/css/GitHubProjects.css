@@ -2,11 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 10px 0 100px 0;
+  padding: 10px 0 50px 0;
 }
 
 .projects {
-  /* margin-left: 10em; */
   display: flex;
   flex-direction: column;
 }

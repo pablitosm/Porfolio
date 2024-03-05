@@ -7,4 +7,9 @@
 .container-blog {
     margin: 0 auto;
     max-width: 80%;
+    font-size: 1.5em;
+}
+
+.justify-text {
+    text-align: justify;
 }
