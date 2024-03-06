@@ -27,6 +27,17 @@
     /* box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); */
 }
 
+/* ocultar imagen en pantallas moviles */
+@media (max-width: 600px) {
+    .image {
+        display: none;
+    }
+
+    .container-all {
+        width: 100% !important;
+    }
+}
+
 .title-index p {
     font-size: 5em;
     font-weight: bold;

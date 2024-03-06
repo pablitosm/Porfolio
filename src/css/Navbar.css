@@ -51,6 +51,7 @@
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
+        width: 100%;
     }
 
     .navbar__links {

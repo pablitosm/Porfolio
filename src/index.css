@@ -43,6 +43,13 @@ footer {
   margin: 0 auto;
 }
 
+/* disposiitvos moviles */
+@media (max-width: 600px) {
+  footer {
+    width: 100%;
+  }
+}
+
 .container {
   display: flex;
   justify-content: space-between;

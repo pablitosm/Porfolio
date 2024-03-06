@@ -10,7 +10,13 @@
   flex-direction: column;
 }
 
+.link-clicable {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .projects h2 {
+  font-size: 2em !important;
   margin: 0 0 8px;
 }
 

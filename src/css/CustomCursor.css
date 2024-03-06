@@ -1,4 +1,8 @@
 /* CustomCursor.css */
+* {
+    cursor: none;
+}
+
 .cursor {
     position: fixed;
     width: 15px;

@@ -1,6 +1,7 @@
 // index.jsx
 import React from 'react';
 import Projects from '../projects/Projects';
+import Skills from '../skills/Skills';
 import '../css/Index.css';
 
 function index() {
@@ -30,6 +31,7 @@ function index() {
                 Thank you for visiting, and feel free to explore my work!
             </p>
         </div>
+        <Skills />
         <Projects />
     </div>
     

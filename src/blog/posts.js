@@ -72,7 +72,7 @@ export const posts = [
 <div class="copy-button"></div>
 <pre>
   <code class="language-css">  
-    /* Estilos globales */
+    /* global Styles */
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -83,14 +83,14 @@ export const posts = [
         padding: 20px;
     }
 
-    /* Estilos para el header */
+    /* header styles */
     header {
         background-color: #333;
         color: #fff;
         text-align: center;
     }
 
-    /* Estilos para la navegación */
+    /* navbar styles */
     nav ul {
         list-style-type: none;
         margin: 0;
@@ -111,13 +111,13 @@ export const posts = [
         color: #000;
     }
 
-    /* Estilos para la sección principal */
+    /* principal section styles */
     section {
         background-color: #f4f4f4;
         padding: 20px;
     }
 
-    /* Estilos para el footer */
+    /* footer styles */
     footer {
         background-color: #333;
         color: #fff;
@@ -280,7 +280,6 @@ export const posts = [
       <br>
       <p>Some examples of how npm command works:</p>
 
-<div class="copy-button"></div>
 <pre>
   <code class="language-javascript">
     npm init
