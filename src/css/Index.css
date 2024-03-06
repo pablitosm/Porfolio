@@ -63,3 +63,14 @@
     text-align: justify;
 }
 
+.container {
+    display: flex;
+}
+  
+.projects {
+    flex: 60;
+}
+
+.contact {
+    flex: 40;
+}

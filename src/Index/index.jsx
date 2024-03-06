@@ -2,6 +2,7 @@
 import React from 'react';
 import Projects from '../projects/Projects';
 import Skills from '../skills/Skills';
+import Contact from '../Contact/Contact';
 import '../css/Index.css';
 
 function index() {
@@ -32,7 +33,14 @@ function index() {
             </p>
         </div>
         <Skills />
-        <Projects />
+        <div className="container">
+            <div className="projects">
+                <Projects />
+            </div>
+            <div className="contact">
+                <Contact />
+            </div>
+        </div>
     </div>
     
   );

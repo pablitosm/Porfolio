@@ -15,7 +15,9 @@ function getRandomColor() {
 const languageColors = {
   Java: '#BD34FF',
   HTML: '#FFC51D',
-  JavaScript: '#48C8FF'
+  JavaScript: '#48C8FF',
+  PHP: '#E2E2E2',
+  'Rich Text Format': '#FF5655' 
 };
 
 const GitHubProjects = ({ username, token }) => {

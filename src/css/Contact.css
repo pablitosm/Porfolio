@@ -1,7 +1,12 @@
 /* styles.css */
 .container-contact {
-    margin: 0 auto;
-    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container-contact h2 {
+    font-size: 2em !important;
+    margin: 0 0 8px;
 }
 
 .contact-form {
@@ -11,17 +16,6 @@
     margin: 2em 0;
 }
 
-.contact-form .input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Esto alinea los elementos del formulario a la izquierda */
-}
-
-.input-container {
-    width: 50%;
-}
-
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -30,6 +24,11 @@
     margin: 1em 0;
     padding: 0.5em;
     font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 60px;
+    resize: none;
 }
 
 .contact-form button {

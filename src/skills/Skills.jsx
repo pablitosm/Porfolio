@@ -20,7 +20,7 @@ function Skills() {
             <p className='border-bottom'>Front-end skills</p>
             <div className="skills-front">
                 {frontEndSkills.map((skill, index) => (
-                    <div key={index} className="skill">
+                    <div key={index} className="skill1">
                         <img src={skill.image} alt={skill.name} />
                         <p className='hide-movile'><span className={skill.level.toLowerCase()}>{skill.level}</span></p>
                     </div>
