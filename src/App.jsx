@@ -1,6 +1,5 @@
 // App.jsx
 import React from 'react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import CustomCursor from './Components/CustomCursor';
@@ -21,7 +20,6 @@ function App() {
           <Route path="/Blog/:id" element={<Post />} />
           <Route path="/repo/:username/:repoName" element={<RepoDetails />} />
         </Routes>
-        <SpeedInsights />
       </div>
     </Router>
   );

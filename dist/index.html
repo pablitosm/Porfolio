@@ -2,13 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="https://i.imgur.com/Uj6pNyc.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <script type="module" crossorigin src="/assets/index-BxblPy-n.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BDBV9lXr.css">
+    <title>pablo - dev porfolio</title>
+    <script type="module" crossorigin src="/assets/index-n6U67jv3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C1Rp_2NG.css">
   </head>
   <body>
     <div id="root"></div>
   </body>
+  <footer>
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://github.com/pablitosm" target="_blank" title="github">
+          <img id="github-icon" class="social-icon" src="https://i.imgur.com/icebTuv.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/pablosmdb/" target="_blank" title="linkedin">
+          <img id="linkedin-icon" class="social-icon" src="https://i.imgur.com/Q0dsIeE.png" alt="LinkedIn" />
+        </a>
+        <a href="https://www.behance.net/pablosanmiguel" target="_blank" title="behance">
+          <img id="behance-icon" class="social-icon" src="https://i.imgur.com/XkYVRFT.png" alt="Behance" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var githubIcon = document.getElementById('github-icon');  
+    var linkedinIcon = document.getElementById('linkedin-icon');  
+    var behanceIcon = document.getElementById('behance-icon');  
+
+    githubIcon.addEventListener('mouseover', function() {
+      githubIcon.src = 'https://i.imgur.com/mJeatsh.png';
+    });
+
+    githubIcon.addEventListener('mouseout', function() {
+      githubIcon.src = 'https://i.imgur.com/icebTuv.png';
+    });
+
+    linkedinIcon.addEventListener('mouseover', function() {
+      linkedinIcon.src = 'https://i.imgur.com/acC39W9.png';
+    });
+
+    linkedinIcon.addEventListener('mouseout', function() {
+      linkedinIcon.src = 'https://i.imgur.com/Q0dsIeE.png';
+    });
+
+    behanceIcon.addEventListener('mouseover', function() {
+      behanceIcon.src = 'https://i.imgur.com/8dFNRGV.png';
+    });
+
+    behanceIcon.addEventListener('mouseout', function() {
+      behanceIcon.src = 'https://i.imgur.com/XkYVRFT.png';
+    });
+  </script>
 </html>
