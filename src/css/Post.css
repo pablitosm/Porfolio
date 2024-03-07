@@ -33,7 +33,7 @@ pre {
 
 .copy-button {
     position: absolute;
-    margin-top: -.5vw;
+    margin-top: -.2vh;
     margin-left: 76vw;
     z-index: 10;
     width: 30px; /* Adjust as needed */
@@ -45,16 +45,21 @@ pre {
     background-size: cover;
 }
 
-.copy-button:hover {
+.copy-button1 {
+    position: absolute;
+    margin-top: -1.3vh;
+    margin-left: 76vw;
+    z-index: 10;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    border: 1px solid #474747;
+    background-color: #282828;
+    border-radius: 5px;
+    background-image: url('https://i.imgur.com/NFpGAjt.png');
+    background-size: cover;
+}
+
+.copy-button:hover,
+.copy-button1:hover {
     background-image: url('https://i.imgur.com/QAJc7NJ.png');
   }
-
-/* .copy-button {
-    background-color: #FFC51D;
-    color: #222222;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    padding: 5px;
-  } */

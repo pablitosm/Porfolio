@@ -35,7 +35,11 @@ export const posts = [
     &lt;/head&gt;
     &lt;body&gt;
         &lt;header&gt;
-            &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+            &lt;h1&gt;this is an h1&lt;/h1&gt;
+            &lt;h2&gt;this is an h2&lt;/h2&gt;
+            &lt;h3&gt;this is an h3&lt;/h3&gt;
+            &lt;h4&gt;this is an h4&lt;/h4&gt;
+            &lt;h5&gt;this is an h5&lt;/h5&gt;
         &lt;/header&gt;
         &lt;nav&gt;
             &lt;ul&gt;
@@ -290,7 +294,7 @@ export const posts = [
 <br>
 
 <p>This code sets up a basic HTTP server using Node.js</p>
-<div class="copy-button"></div>
+<div class="copy-button1"></div>
 <pre>
   <code class="language-javascript">
     const http = require('http');
