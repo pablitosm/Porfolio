@@ -32,6 +32,7 @@ const GitHubProjects = ({ username, token }) => {
       }
     })
     .then(response => {
+      console.log(response); // print the full response
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
