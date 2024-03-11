@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       
       <div className="navbar__links">
-        <a href="../../cv/CV-Pablo-San-Miguel.pdf" className="navbar__link" title='download cv' target="_blank" rel="noopener noreferrer">cv</a>
+        <a href="../../files/CV-Pablo-San-Miguel.pdf" className="navbar__link" title='download cv' locale="false" target="_blank" rel="noopener noreferrer">cv</a>
         <NavLink to="/blog" className="navbar__link" title='blog'>blog</NavLink>
       </div>
 
